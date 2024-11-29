@@ -4,78 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banana Roll</title>
-    <link rel="stylesheet" href="styles.css">
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: white;
             margin: 0;
             padding: 0;
         }
         header {
-            background-color: hsl(54, 100%, 42%);
-            padding: 10px; 
+            background-color: #ffd700;
             text-align: center;
+            padding: 15px;
         }
-        h1 {
+        header h1 {
+            font-size: 28px;
             margin: 0;
-            font-size: 36;
             color: black;
         }
-        nav {
-            margin-top: 10px;
-        }
         nav a {
-            margin: 0 15px;
             text-decoration: none;
-            color: #333;
+            color: black;
+            margin: 0 10px;
         }
         .container {
-            width: 40%;
-            padding: 10px;
+            padding: 20px;
+            max-width: 600px;
             margin: auto;
-            overflow: hidden;
         }
         .product {
-            background: white;
             border: 1px solid #ddd;
-            border-radius: 10px; 
-            padding: 20px; 
-            margin: 5px 0; 
+            border-radius: 8px;
+            padding: 10px;
             text-align: center;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+            margin-top: 20px;
         }
         .product img {
-            max-width: 300%;
-            height: auto;
+            max-width: 100%;
             border-radius: 8px;
-            max-height: 300px;
         }
-        .price {
-            font-size: 24px;
-            color: #191115;
+        .product .price {
+            font-size: 18px;
             margin: 10px 0;
         }
         .product button {
-            background-color: hsl(54, 100%, 60%);
-            color: black;
+            background-color: #ffd700;
             border: none;
-            padding: 10px 20px;
+            padding: 10px;
             border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-        }
-        .product button:hover {
-            background-color: #c3a300; 
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #333;
-            color: white;
-            position: relative;
-            bottom: 0;
-            width: 100%;
         }
     </style>
 </head>
@@ -90,23 +64,20 @@
 
     <div class="container">
         <section id="home">
-            <h1 style="font-size: 50px;"><i>S.San</i></h1>
+            <h2>S.San</h2>
             <p>Siap Santap Makan</p>
-            <h3>Kenapa Memilih Banana Roll?</h3>
-        <p><i>Roll adalah perpaduan sempurna antara kelembutan pisang asli dan rasa cokelat yang lezat. Dibuat dari bahan-bahan pilihan dan diolah dengan hati, Banana Roll siap menjadi cemilan favorit kalian</i></p>
-        
+            <p>Banana Roll adalah perpaduan kelembutan Roti dan pisang ada rasa cokelat lezat dengan gulungannya.</p>
         </section>
 
         <section id="products">
             <h2>Menu Kami</h2>
             <div class="product">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDx9HlJ0Usivj7YGe1_wOgxLh4p9flaRQodw&s" alt="">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDx9HlJ0Usivj7YGe1_wOgxLh4p9flaRQodw&s" alt="Banana Roll">
                 <h3>Rasa Cokelat</h3>
                 <p class="price">Rp 9.000</p>
-                <a href="https://wa.me/6289513464606?text=Halo,%20saya%20ingin%20pesan%20Banana%20Roll%20Rasa%20Cokelat%20seharga%20Rp%209.000" target="_blank">
+                <a href="https://wa.me/6289513464606?text=Halo,%20saya%20ingin%20pesan%20Banana%20Roll%20Rasa%20Cokelat%20seharga%20Rp%209.000">
                     <button>Beli Sekarang</button>
                 </a>
-                <p>TERIMASIH TELAH MEMESAN!</p>
             </div>
         </section>
     </div>
